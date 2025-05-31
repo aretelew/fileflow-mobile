@@ -5,14 +5,14 @@ export default function TabsLayout() {
   return (
     <Tabs>
       <Tabs.Screen name="index" options={{
-        title: 'Files',
-        headerShown: false,
-        tabBarIcon: ({ color }) => <FontAwesome size={28} name="home" color={color} />,
-      }} />
-      <Tabs.Screen name="upload" options={{
         title: 'Upload',
         headerShown: false,
         tabBarIcon: ({ color }) => <FontAwesome size={28} name="upload" color={color} />,
+      }} />
+      <Tabs.Screen name="upload" options={{
+        title: 'Files',
+        headerShown: false,
+        tabBarIcon: ({ color }) => <FontAwesome size={28} name="file" color={color} />,
       }} />
       <Tabs.Screen name="settings" options={{
         title: 'Settings',
