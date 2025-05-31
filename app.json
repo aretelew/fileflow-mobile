@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "default",
-    "slug": "default",
+    "name": "fileflow",
+    "slug": "fileflow",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "default",
-    "userInterfaceStyle": "automatic",
+    "scheme": "fileflow",
+    "userInterfaceStyle": "dark",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true

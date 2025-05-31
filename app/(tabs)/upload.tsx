@@ -1,9 +1,9 @@
 import { Text, View } from "react-native";
 
-export default function Files() {
+export default function Upload() {
   return (
     <View className="flex-1 justify-center items-center">
-      <Text className="text-5xl font-bold">Files</Text>
+      <Text className="text-5xl font-bold">Upload</Text>
     </View>
   );
 }
